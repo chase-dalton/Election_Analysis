@@ -34,7 +34,12 @@ The analysis showed that:
 
 - The winner of this election was Diana Degette with 272,892 (73.8%) of the vote.
 
-The Python script not only prints the results in the terminal, but to a [text file](https://github.com/typicalchazz/Election_Analysis/blob/main/analysis/election_results.txt) as well.  
+The Python script not only prints the results in the terminal, as shown below:
+
+![terminal image](https://github.com/typicalchazz/Election_Analysis/blob/main/Resources/Election_Analysis_Terminal_Output.png)
+
+
+,but the results are also published to a [text file](https://github.com/typicalchazz/Election_Analysis/blob/main/analysis/election_results.txt) as well.  
 
 ## Summary
 Using Python, we were able to assist the election commision answer their question of which counties participated in voting, and which candidate won the election. The Python script is incredibly flexible and modifications can be made to improve it and make it accessible for any election. A great feature that would not only be easy to add, but would be very likely asked for, would be to get the breakdown of the counties vote by candidate. That way the commision would not only see what counties participated, but what candidate did they vote for. Another great feature would be to change the scope of the script and see how various cities voted for their candidates as opposed to counties. The script could even be used in state elections.
