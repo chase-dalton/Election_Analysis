@@ -5,16 +5,19 @@ Analysis of Colorado election data with Python
 A Colorado Board of Elections employee has given me the following tasks to complete the election audit of a recent local congressional election:
 
   1. Calculate the total number of votes
-  2. Get a complete list of candiates who received votes
-  3. Calculate the total number of votes each candidate received
-  4. Calculate the percentage of votes each candidate won
-  5. Determine the winner of the election based on popular vote.
+  2. Get a complete list of counties that participated in the vote
+  3. Calculate the total number of votes for each county
+  4. Calculate the percentage of votes each county contributed 
+  5. Get a complete list of candiates who received votes
+  6. Calculate the total number of votes each candidate received
+  7. Calculate the percentage of votes each candidate won
+  8. Determine the winner of the election based on popular vote.
 
 ## Resources
 - Data Source: election_results.csv
 - Software: Python 3.8.8
 
-## Summary
+## Results
 The analysis showed that:
 - There were 369,711 votes cast.
 - The counties in the precinct that participated were:
@@ -31,6 +34,7 @@ The analysis showed that:
 
 - The winner of this election was Diana Degette with 272,892 (73.8%) of the vote.
 
-## Challenge Overview
+The Python script not only prints the results in the terminal, but to a [text file](https://github.com/typicalchazz/Election_Analysis/blob/main/analysis/election_results.txt) as well.  
 
-## Challenge Summary
+## Summary
+Using Python, we were able to assist the election commision answer their question of which counties participated in voting, and which candidate won the election. The Python script is incredibly flexible and modifications can be made to improve it and make it accessible for any election. A great feature that would not only be easy to add, but would be very likely asked for, would be to get the breakdown of the counties vote by candidate. That way the commision would not only see what counties participated, but what candidate did they vote for. Another great feature would be to change the scope of the script and see how various cities voted for their candidates as opposed to counties. The script could even be used in state elections.
